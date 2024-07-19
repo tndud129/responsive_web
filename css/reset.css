@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+ul, li{list-style: none;}
+img{vertical-align: baseline;}
+table{border-collapse: collapse;}
+
+input{border: 2px solid #7f7373; color: #666; border-radius: 4px;}
+input::-webkit-input-placeholder{
+    color: #666;
+}
+input::-moz-input-placeholder{
+    color: #666;
+}
+
+body{font-family: "나눔고딕" , "맑은 고딕" , "어비손글씨";
+    background: url(../images/s_images/body_bg.png);
+}
+
+/* 웹폰트 css 만들기 */
+@font-face {
+    font-family: "나눔고딕";
+    src: url("../webfont/NanumGothic.eot");
+}
+@font-face {
+    font-family: "나눔고딕";
+    src: url("../webfont/NanumGothic.woff");
+}
+
+@font-face {
+    font-family: "어비손글씨";
+    src: url(../webfont/UhBee\ mingi\ calli.ttf);
+}
+@font-face {
+    font-family: "어비손글씨볼드";
+    src: url(../webfont/UhBee\ mingi\ calli\ Bold.ttf);
+}
+
